@@ -1,0 +1,294 @@
+[gd_scene load_steps=44 format=2]
+
+[ext_resource path="res://scripts/confetti_new.gd" type="Script" id=1]
+[ext_resource path="res://sprites/confetti_new/conf1_blue.png" type="Texture" id=2]
+[ext_resource path="res://sprites/confetti_new/conf2_blue.png" type="Texture" id=3]
+[ext_resource path="res://sprites/confetti_new/conf4_blue.png" type="Texture" id=4]
+[ext_resource path="res://sprites/confetti_new/conf3_blue.png" type="Texture" id=5]
+[ext_resource path="res://sprites/confetti_new/conf2_green.png" type="Texture" id=6]
+[ext_resource path="res://sprites/confetti_new/conf3_green.png" type="Texture" id=7]
+[ext_resource path="res://sprites/confetti_new/conf1_green.png" type="Texture" id=8]
+[ext_resource path="res://sprites/confetti_new/conf4_lime.png" type="Texture" id=9]
+[ext_resource path="res://sprites/confetti_new/conf2_lightBlue.png" type="Texture" id=10]
+[ext_resource path="res://sprites/confetti_new/conf3_lightBlue.png" type="Texture" id=11]
+[ext_resource path="res://sprites/confetti_new/conf1_lightBlue.png" type="Texture" id=12]
+[ext_resource path="res://sprites/confetti_new/conf4_lightBlue.png" type="Texture" id=13]
+[ext_resource path="res://sprites/confetti_new/conf2_lime.png" type="Texture" id=14]
+[ext_resource path="res://sprites/confetti_new/conf1_lime.png" type="Texture" id=15]
+[ext_resource path="res://sprites/confetti_new/conf4_orange.png" type="Texture" id=16]
+[ext_resource path="res://sprites/confetti_new/conf1_orange.png" type="Texture" id=17]
+[ext_resource path="res://sprites/confetti_new/conf2_orange.png" type="Texture" id=18]
+[ext_resource path="res://sprites/confetti_new/conf3_orange.png" type="Texture" id=19]
+[ext_resource path="res://sprites/confetti_new/conf1_pink.png" type="Texture" id=20]
+[ext_resource path="res://sprites/confetti_new/conf4_pink.png" type="Texture" id=21]
+[ext_resource path="res://sprites/confetti_new/conf2_pink.png" type="Texture" id=22]
+[ext_resource path="res://sprites/confetti_new/conf3_pink.png" type="Texture" id=23]
+[ext_resource path="res://sprites/confetti_new/conf1_purple.png" type="Texture" id=24]
+[ext_resource path="res://sprites/confetti_new/conf2_purple.png" type="Texture" id=25]
+[ext_resource path="res://sprites/confetti_new/conf1_red.png" type="Texture" id=26]
+[ext_resource path="res://sprites/confetti_new/conf2_red.png" type="Texture" id=27]
+[ext_resource path="res://sprites/confetti_new/conf4_red.png" type="Texture" id=28]
+[ext_resource path="res://sprites/confetti_new/conf3_red.png" type="Texture" id=29]
+[ext_resource path="res://sprites/confetti_new/conf4_yellow.png" type="Texture" id=30]
+[ext_resource path="res://sprites/confetti_new/conf1_yellow.png" type="Texture" id=31]
+[ext_resource path="res://sprites/confetti_new/conf2_yellow.png" type="Texture" id=32]
+[ext_resource path="res://sprites/confetti_new/conf3_yellow.png" type="Texture" id=33]
+[ext_resource path="res://sound/Confetti.wav" type="AudioStream" id=34]
+
+[sub_resource type="AnimatedTexture" id=1]
+flags = 4
+frames = 4
+fps = 16.0
+frame_0/texture = ExtResource( 2 )
+frame_1/texture = ExtResource( 3 )
+frame_1/delay_sec = 0.0
+frame_2/texture = ExtResource( 5 )
+frame_2/delay_sec = 0.0
+frame_3/texture = ExtResource( 4 )
+frame_3/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=2]
+flags = 4
+frames = 4
+fps = 16.0
+frame_0/texture = ExtResource( 8 )
+frame_1/texture = ExtResource( 6 )
+frame_1/delay_sec = 0.0
+frame_2/texture = ExtResource( 7 )
+frame_2/delay_sec = 0.0
+frame_3/texture = ExtResource( 9 )
+frame_3/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=3]
+flags = 4
+frames = 4
+fps = 16.0
+frame_0/texture = ExtResource( 12 )
+frame_1/texture = ExtResource( 10 )
+frame_1/delay_sec = 0.0
+frame_2/texture = ExtResource( 11 )
+frame_2/delay_sec = 0.0
+frame_3/texture = ExtResource( 13 )
+frame_3/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=4]
+flags = 4
+frames = 3
+fps = 12.0
+frame_0/texture = ExtResource( 15 )
+frame_1/texture = ExtResource( 14 )
+frame_1/delay_sec = 0.0
+frame_2/texture = ExtResource( 9 )
+frame_2/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=5]
+flags = 4
+frames = 4
+fps = 16.0
+frame_0/texture = ExtResource( 17 )
+frame_1/texture = ExtResource( 18 )
+frame_1/delay_sec = 0.0
+frame_2/texture = ExtResource( 19 )
+frame_2/delay_sec = 0.0
+frame_3/texture = ExtResource( 16 )
+frame_3/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=6]
+flags = 4
+frames = 4
+fps = 16.0
+frame_0/texture = ExtResource( 20 )
+frame_1/texture = ExtResource( 22 )
+frame_1/delay_sec = 0.0
+frame_2/texture = ExtResource( 23 )
+frame_2/delay_sec = 0.0
+frame_3/texture = ExtResource( 21 )
+frame_3/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=7]
+flags = 4
+frames = 2
+fps = 8.0
+frame_0/texture = ExtResource( 24 )
+frame_1/texture = ExtResource( 25 )
+frame_1/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=8]
+flags = 4
+frames = 4
+fps = 16.0
+frame_0/texture = ExtResource( 26 )
+frame_1/texture = ExtResource( 27 )
+frame_1/delay_sec = 0.0
+frame_2/texture = ExtResource( 29 )
+frame_2/delay_sec = 0.0
+frame_3/texture = ExtResource( 28 )
+frame_3/delay_sec = 0.0
+
+[sub_resource type="AnimatedTexture" id=9]
+flags = 4
+frames = 4
+fps = 16.0
+frame_0/texture = ExtResource( 31 )
+frame_1/texture = ExtResource( 32 )
+frame_1/delay_sec = 0.0
+frame_2/texture = ExtResource( 33 )
+frame_2/delay_sec = 0.0
+frame_3/texture = ExtResource( 30 )
+frame_3/delay_sec = 0.0
+
+[node name="confetti_new" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -1242.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cpu_particles_2d2" type="CPUParticles2D" parent="."]
+position = Vector2( 156.975, 2221.44 )
+emitting = false
+amount = 20
+lifetime = 2.0
+one_shot = true
+texture = SubResource( 1 )
+direction = Vector2( 0, -1 )
+spread = 90.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 1000.0
+initial_velocity_random = 0.3
+linear_accel = 100.0
+scale_amount = 2.0
+scale_amount_random = 0.3
+
+[node name="cpu_particles_2d3" type="CPUParticles2D" parent="."]
+position = Vector2( 156.975, 2221.44 )
+emitting = false
+amount = 20
+lifetime = 2.0
+one_shot = true
+texture = SubResource( 2 )
+direction = Vector2( 0, -1 )
+spread = 90.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 1000.0
+initial_velocity_random = 0.3
+linear_accel = 100.0
+scale_amount = 2.0
+scale_amount_random = 0.3
+
+[node name="cpu_particles_2d4" type="CPUParticles2D" parent="."]
+position = Vector2( 156.975, 2221.44 )
+emitting = false
+amount = 20
+lifetime = 2.0
+one_shot = true
+texture = SubResource( 3 )
+direction = Vector2( 0, -1 )
+spread = 90.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 1000.0
+initial_velocity_random = 0.3
+linear_accel = 100.0
+scale_amount = 2.0
+scale_amount_random = 0.3
+
+[node name="cpu_particles_2d5" type="CPUParticles2D" parent="."]
+position = Vector2( 156.975, 2221.44 )
+emitting = false
+amount = 20
+lifetime = 2.0
+one_shot = true
+texture = SubResource( 4 )
+direction = Vector2( 0, -1 )
+spread = 90.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 1000.0
+initial_velocity_random = 0.3
+linear_accel = 100.0
+scale_amount = 2.0
+scale_amount_random = 0.3
+
+[node name="cpu_particles_2d6" type="CPUParticles2D" parent="."]
+position = Vector2( -161.732, 2221.44 )
+emitting = false
+amount = 20
+lifetime = 2.0
+one_shot = true
+texture = SubResource( 5 )
+direction = Vector2( 0, -1 )
+spread = 90.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 1000.0
+initial_velocity_random = 0.3
+linear_accel = 100.0
+scale_amount = 2.0
+scale_amount_random = 0.3
+
+[node name="cpu_particles_2d7" type="CPUParticles2D" parent="."]
+position = Vector2( -161.732, 2221.44 )
+emitting = false
+amount = 20
+lifetime = 2.0
+one_shot = true
+texture = SubResource( 6 )
+direction = Vector2( 0, -1 )
+spread = 90.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 1000.0
+initial_velocity_random = 0.3
+linear_accel = 100.0
+scale_amount = 2.0
+scale_amount_random = 0.3
+
+[node name="cpu_particles_2d8" type="CPUParticles2D" parent="."]
+position = Vector2( -161.732, 2221.44 )
+emitting = false
+amount = 20
+lifetime = 2.0
+one_shot = true
+texture = SubResource( 7 )
+direction = Vector2( 0, -1 )
+spread = 90.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 1000.0
+initial_velocity_random = 0.3
+linear_accel = 100.0
+scale_amount = 2.0
+scale_amount_random = 0.3
+
+[node name="cpu_particles_2d9" type="CPUParticles2D" parent="."]
+position = Vector2( -161.732, 2221.44 )
+emitting = false
+amount = 20
+lifetime = 2.0
+one_shot = true
+texture = SubResource( 8 )
+direction = Vector2( 0, -1 )
+spread = 90.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 1000.0
+initial_velocity_random = 0.3
+linear_accel = 100.0
+scale_amount = 2.0
+scale_amount_random = 0.3
+
+[node name="cpu_particles_2d10" type="CPUParticles2D" parent="."]
+position = Vector2( -161.732, 2221.44 )
+emitting = false
+amount = 20
+lifetime = 2.0
+one_shot = true
+texture = SubResource( 9 )
+direction = Vector2( 0, -1 )
+spread = 90.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 1000.0
+initial_velocity_random = 0.3
+linear_accel = 100.0
+scale_amount = 2.0
+scale_amount_random = 0.3
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 34 )

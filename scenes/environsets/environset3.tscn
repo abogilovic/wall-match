@@ -1,0 +1,299 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scripts/environset.gd" type="Script" id=1]
+
+[sub_resource type="SpatialMaterial" id=1]
+
+[node name="environset3" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="DL" type="Spatial" parent="."]
+
+[node name="MeshInstance" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, -1.02645, -9.00983, 0, -28.4791 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance2" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, -1.02645, -3.17453, 0, -11.7547 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance3" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, -1.02645, -20.2806, 0, -15.1701 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance4" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, -1.02645, -3.53971, 0, -18.175 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance5" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, -1.02645, -2.87914, 0, -25.6792 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance6" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, -1.02645, -11.0713, 0, -23.5959 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance7" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, -1.02645, -20.8419, 0, -23.5959 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance9" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, -1.02645, -9.23609, 0, -8.02346 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance14" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, -1.02645, -26.7181, 0, -19.1914 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance13" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, -1.02645, -14.5364, 0, -11.3134 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance12" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, -1.02645, -12.0077, 0, -2.47438 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance11" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, -1.02645, -17.0406, 0, -27.8223 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance10" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, -1.02645, -16.0861, 0, -18.5614 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance8" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 1.49012e-08, 0, -1.02645, -39.0277, 0, -21.279 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance15" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 2.98023e-08, 0, -1.02645, -29.4328, 0, -23.1723 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance16" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 1.49012e-08, 0, -1.02645, -24.4723, 0, -28.6363 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance17" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 1.49012e-08, 0, -1.02645, -32.3884, 0, -18.2853 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance18" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 1.49012e-08, 0, -1.02645, -35.0291, 0, -27.1948 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance19" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 1.49012e-08, 0, -1.02645, -2.86583, 0, -2.97512 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance20" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 1.49012e-08, 0, -1.02645, -19.9522, 0, -7.25654 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance21" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 1.49012e-08, 0, -1.02645, -29.7228, 0, -7.25654 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance22" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, -1.02645, -25.9214, 0, -11.4829 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance23" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, -2.98023e-08, 0, -1.02645, -24.9669, 0, -2.22198 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance24" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 1.49012e-08, 0, -1.02645, -8.57553, 0, -15.5276 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance25" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 7.45058e-09, 0, -1.02645, 9.79565, 0, -1.61433 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance26" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 7.45058e-09, 0, -1.02645, 2.86109, 0, -17.9136 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance27" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 7.45058e-09, 0, -1.02645, 20.1564, 0, -15.6434 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance28" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 0, 0, -1.02645, 2.76458, 0, -12.6389 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance29" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 0, 0, -1.02645, 3.16622, 0, -5.84227 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance30" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 0, 0, -1.02645, 11.5278, 0, -6.62376 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance31" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 0, 0, -1.02645, 21.2768, 0, -7.2735 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance32" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 0, 0, -1.02645, 8.6611, 0, -22.0397 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance33" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 1.49012e-08, 0, -1.02645, 26.8471, 0, -12.059 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance34" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 1.49012e-08, 0, -1.02645, 14.1684, 0, -19.1095 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance35" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 2.98023e-08, 0, -1.02645, 11.0575, 0, -27.7608 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance36" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 2.98023e-08, 0, -1.02645, 17.765, 0, -2.80371 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance37" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 2.98023e-08, 0, -1.02645, 16.1967, 0, -11.9807 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance38" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, -1.49012e-08, 0, 1, 0, 0, 0, -1.02645, 39.2683, 0, -10.7947 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance39" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, -1.49012e-08, 0, 1, 0, 0, 0, -1.02645, 29.8205, 0, -8.26746 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance40" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.44355e-08, 0, 1, 0, 1.58325e-08, 0, -1.02645, 25.2344, 0, -2.48566 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance41" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.44355e-08, 0, 1, 0, 1.58325e-08, 0, -1.02645, 32.4446, 0, -13.3402 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance42" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.39698e-08, 0, 1, 0, 1.67638e-08, 0, -1.02645, 35.6719, 0, -4.62609 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance43" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 7.45058e-09, 0, -1.02645, 5.20882, 0, -26.7407 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance44" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 7.45058e-09, 0, -1.02645, 19.3025, 0, -23.5176 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance45" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 7.45058e-09, 0, -1.02645, 29.0515, 0, -24.1673 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance46" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 2.98023e-08, 0, -1.02645, 25.5396, 0, -19.6975 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance47" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 4.47035e-08, 0, -1.02645, 23.9713, 0, -28.8745 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance48" type="MeshInstance" parent="DL"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 2.23517e-08, 0, -1.02645, 8.50103, 0, -14.5082 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="DR" type="Spatial" parent="."]
+
+[node name="U" type="Spatial" parent="."]
+
+[node name="MeshInstance60" type="MeshInstance" parent="U"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 2.23517e-08, 0, -1.02645, 16.666, 22.9752, -43.3078 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance59" type="MeshInstance" parent="U"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 4.47035e-08, 0, -1.02645, -37.5564, 22.9752, -22.3177 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance58" type="MeshInstance" parent="U"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 2.98023e-08, 0, -1.02645, -7.87501, 22.9752, -44.2191 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance57" type="MeshInstance" parent="U"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 7.45058e-09, 0, -1.02645, 5.05821, 22.9752, -30.5854 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance55" type="MeshInstance" parent="U"]
+transform = Transform( 1, 0, 1.49012e-08, 0, 1, 0, 7.45058e-09, 0, -1.02645, -22.8927, 22.9752, -33.6158 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance54" type="MeshInstance" parent="U"]
+transform = Transform( 1, 0, 1.39698e-08, 0, 1, 0, 1.67638e-08, 0, -1.02645, 26.6924, 22.9752, -20.1632 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance53" type="MeshInstance" parent="U"]
+transform = Transform( 1, 0, 1.44355e-08, 0, 1, 0, 1.58325e-08, 0, -1.02645, -36.0499, 22.9752, -50.5005 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance52" type="MeshInstance" parent="U"]
+transform = Transform( 1, 0, 1.44355e-08, 0, 1, 0, 1.58325e-08, 0, -1.02645, 10.0129, 22.9752, -59.7516 )
+material_override = SubResource( 1 )
+cast_shadow = 0
+
+[node name="MeshInstance50" type="MeshInstance" parent="U"]
+transform = Transform( 1, 0, -1.49012e-08, 0, 1, 0, 0, 0, -1.02645, -15.7943, 22.9752, -61.953 )
+material_override = SubResource( 1 )
+cast_shadow = 0

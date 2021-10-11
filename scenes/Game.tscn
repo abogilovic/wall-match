@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://sound/BG_music_WallMatch.ogg" type="AudioStream" id=1]
+[ext_resource path="res://scripts/Game.gd" type="Script" id=5]
+
+[node name="Game" type="Node"]
+script = ExtResource( 5 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 0.727187, -0.643854, -0.238014, 0.333657, 0.0285144, 0.942263, -0.599893, -0.764617, 0.235562, 0, 6.30249, 0 )
+light_energy = 0.4
+shadow_enabled = true
+directional_shadow_blend_splits = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+volume_db = -10.0
+autoplay = true
